@@ -1,0 +1,146 @@
+/* Blog Post Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: var(--primary);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 18px;
+}
+
+nav ul li a:hover {
+    background: var(--secondary);
+    border-radius: 5px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color:white;
+}
+
+.post-meta {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.post-content h2 {
+    color: var(--primary);
+    margin-top: 20px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin: 10px 0;
+}
+
+.post-navigation {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.post-navigation a {
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.post-navigation a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Blog Post List Styling */
+.blog-list {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.blog-post:last-child {
+    border-bottom: none;
+}
+
+.blog-post h2 {
+    color: var(--primary);
+}
+
+.blog-post a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.blog-post .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--secondary);
+}
+
+.blog-post .read-more:hover {
+    text-decoration: underline;
+}
+
+/* Blog Images */
+.blog-image {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
