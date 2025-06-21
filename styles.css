@@ -1,0 +1,167 @@
+:root {
+    --primary: #2A5470;  
+    --secondary: #4CAF50; 
+    --background: #f8f9fa;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: var(--background);
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+h1 {
+    color: var(--primary);
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 2.8em;
+}
+h2 {
+    color: var(--primary);
+    margin-top: 30px;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 8px;
+}
+.subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    color:#ddd;
+}
+section {
+    margin: 30px 0;
+    padding: 20px;
+    background: linear-gradient(145deg, #f8f9fa, #fff);
+    border-radius: 10px;
+}
+ol, ul {
+    padding-left: 25px;
+    margin: 15px 0;
+}
+li {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+strong {
+    color: var(--primary);
+}
+.input-group {
+    text-align: center;
+    margin: 40px 0;
+}
+input {
+    padding: 15px;
+    width: 70%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 10px 0;
+    transition: border-color 0.3s;
+}
+input:focus {
+    border-color: var(--primary);
+    outline: none;
+}
+button {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+button:hover {
+    background: #1d3a4d;
+    transform: translateY(-2px);
+}
+.faq-section {
+    background: #fff3e6;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+#result {
+    margin-top: 30px;
+    padding: 25px;
+    background: linear-gradient(145deg, #f8f9fa, #fff);
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+.number-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: var(--secondary);
+    color: white;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+.calculation-steps {
+    text-align: center;
+    color: #666;
+    margin: 15px 0;
+}
+.details-section {
+    margin-top: 25px;
+    padding: 15px;
+    background: #fff9e6;
+    border-radius: 8px;
+}
+.details-section h3 {
+    color: var(--primary);
+    margin-top: 0;
+}
+.example-text {
+    color: #666;
+    font-style: italic;
+    margin: 10px 0;
+}
+/* Navigation Bar Styles */
+nav {
+    background: var(--primary);
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 18px;
+    transition: background 0.3s, border-radius 0.3s, transform 0.2s;
+}
+
+nav ul li a:hover {
+    background: var(--secondary);
+    border-radius: 5px;
+    transform: translateY(-2px);
+}
